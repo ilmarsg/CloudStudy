@@ -1,22 +1,16 @@
-function countChar(string, ch) {
-    let counted = 0;
-    if (ch.length === 1) {
-        for (let i = 0; i < string.length; i++) {
-            if (string[i] == ch) {
-                counted += 1;
-            }
-        }
-        return counted;
-    } else return "Nav ievadīts viens skaitāmais simbols"
-}
+var express = require('express');
+var app = express();
+var fs = require("fs");
 
-function CountT(string) {
-    return countChar(string, "T")
-}
+app.get('/listUsers', function (req, res) {
+  fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
+    console.log( data );
+    res.end( data );
+  });
+})
 
-function CountU(string) {
-    return countChar(string, "U")
-}
-
-console.log(CountT("BCTTu"));
-console.log(CountU("BUTUU"));
+var server = app.listen(8081, function () {
+  var host = server.address().address
+  var port = server.address().port
+  console.log("Example app listening at http://%s:%s", host, port)
+})
