@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="939b71ed-d365-444f-83da-15f873dcbd71" name="4NedUzd">
+        <fileTransfer rootFolder="/home/rdb060" accessType="SFTP" host="192.168.1.106" port="22" sshConfigId="33f69e8a-de6d-42e9-9b02-e4c3f89f8c33" sshConfig="rdb060@192.168.1.106:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
