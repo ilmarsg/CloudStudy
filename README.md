@@ -1,0 +1,2 @@
+# CloudStudy
+# Mājasdarbs priekšmetā Mākoņskaitļošana
