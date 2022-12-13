@@ -191,3 +191,421 @@ rm webmin_2.000_all.deb
 ls -l
 node -v
 exit
+node Test.js 
+exit
+ls -l
+node Test.js 
+ls -lh
+jnode Test.js 
+node Test.js 
+node Test.js
+ls -l
+sudo apt install git-all
+ls -l
+git --version
+ping delfi.lv
+git config --list --show-origin
+git config
+git config --global user.name "Ilmārs Geiba"
+git config --global user.email  "ilmars.geiba@gmail.com"
+git config --list --show-origin
+git config --list 
+ls -l
+md pit
+mkdir PIT
+cd PIT
+ls
+git init
+ls
+ls -lh
+cd .git/
+ls
+ls -lah
+cd ..
+rm -rd PIT/
+ls -lh
+mkdir PIT
+ls
+cd PIT/
+git clone https://github.com/ilmarsg/pit.git
+ls -lh
+cd
+cd ls
+ls
+cd PIT/
+ls
+cd pit/
+ls
+cd ..
+rm PIT/
+rmdir PIT/
+rm -rd PIT/
+ls -l
+mkdir PIT
+cd PIT/
+git init
+cd ..
+rm -rd PIT/
+ls
+mkdir PIT
+cd PIT/
+git clone https://github.com/ilmarsg/PIT.git
+ls
+cd ..
+rm -rd PIT/
+ls -l
+git clone https://github.com/ilmarsg/PIT.git
+ls -l
+cd PIT/
+ls -lh
+ls
+ls -lah
+git status
+ls
+nano readme.md
+nano readme.md 
+git status
+git readme.md
+git add readme.md 
+git status
+git commit
+git status
+git commit -m "Modificēts readme fails"
+git status
+git push
+git remote -v
+git config credential.helper store
+git push https://github.com/ilmarsg/PIT.git
+git push 
+ls
+rm readme.md 
+ls
+nano README.md 
+ls
+git status
+git add readme.md 
+git add README.md 
+git status
+git push
+ilmarsg
+git push
+git status
+git push
+git commit 
+git push
+git status
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+git status
+git branch
+git fetch 
+git status
+git pull
+git branch 
+git fetch
+git branch 
+git pull
+git branch
+git checkout develop 
+git branch
+git checkout 
+git checkout --help
+git checkout -b feat-uzd develop 
+git branch
+nano 
+ls
+git status
+git add Flow.txt 
+git commit 
+git commit -m "Pirmreizējais Flow.txt fails"
+git push
+git push --set-upstream origin feat-uzd 
+git status
+nano Flow.txt 
+ls
+git status
+git add Flow.txt 
+git commit 
+git push 
+git checkout develop 
+git merge --no-ff feat-uzd 
+git status
+git branch -d feat-uzd 
+git push origin develop 
+git branch 
+git status
+nano Flow.txt 
+git status 
+git add Flow.txt 
+git commit 
+git commit -m "Line added in develop"
+git push 
+git tag 
+git checkout master 
+git status
+git merge --no-ff develop 
+git status
+git tag -a rel-1_0_0
+git branch 
+git status
+git push 
+git status
+git tag 
+git merge rel-1_0_0 
+git status
+git tag --list
+git commit 
+git push 
+git checkout -b hotfix1_1 master
+git status
+nano Flow.txt 
+git add Flow.txt 
+git commit 
+git push
+git push --set-upstream origin hotfix1_1 
+git checkout develop 
+git merge --no-ff hotfix1_1 
+git push 
+git branch -d hotfix1_1 
+git status
+git branch 
+git push 
+ls
+ls -l
+cd ..
+ls -l
+cd usr/share/
+ls -l
+cd doc
+ls -l
+cd openssh-server
+ls -l
+less README
+cd ..
+cd ~
+ls
+node Test.js 
+
+node Draft.js 
+node Test.js 
+node Draft.js 
+node Test.js 
+ls
+head ta2017c.lst 
+more ta2017c.lst 
+less ta2017c.lst 
+nano ta2017c.lst 
+vi ta2017c.lst 
+cd
+ls
+cd ..
+cd .
+cd
+ls
+cd ..
+cd .
+ls
+cd ww_uzdevums/
+sudo cd ww_uzdevums/
+ls
+cd
+;s
+ls
+ls
+sudo
+head ta2017c.lst 
+less ta2017c.lst 
+ls
+mkdir express
+ls
+cd express/
+ls
+npm i express
+ls
+cd ..
+cd express/
+ls
+cd node_modules/
+ls
+cd ..
+ls
+cd -i
+cd ..
+ls
+node server.js 
+ls
+mv server.js express/
+ls
+cd express/
+ls
+node server.js 
+ls
+less server.js 
+cd ..
+ls
+rm server.js 
+cd express/
+ls
+cd ..
+ls
+cd express/
+ls
+cd ..
+ls
+cd express/
+node server.js 
+ls
+cd ..
+ls
+cd express/
+less server.js 
+ls
+cd ..
+ls
+cd express/
+node server.js 
+ls
+cd ..
+ls
+mv users.json express/
+ls
+cd express/
+ls
+cd ..
+ls
+rm users.json 
+ls
+cd express/
+ls
+rm users.json 
+ls
+cd ..
+ls
+rm users.json 
+ls
+cd express/
+ls
+node server.js 
+cd .
+ls
+cd ..
+ls
+cd express/
+ls
+rm users.json 
+cd ..
+ls
+cd express/
+ls
+node index.js 
+ls
+rm index.js 
+cd ..
+ls
+cd express/
+less server.js 
+node server.js 
+ls
+sudo
+ls
+cd express/
+node server.js 
+cd ..
+ls
+node Test.js 
+ls
+npm
+npm -l
+ls
+rm -r express/
+ls
+mkdir 6neduzd
+ls
+cd 6neduzd/
+ls
+cd .
+cd ..
+cd 6neduzd && npm init
+ls
+npm i --save express
+ls
+less package.json 
+ls
+less index.js 
+cd ..
+less ta2017c.lst 
+ls
+mv ta2017c.lst 6neduzd/
+ls
+cd 6neduzd/
+ls
+rm ta2017c.lst 
+ls
+cd ..
+ls
+rm ta2017c.lst 
+cd 6neduzd/
+less ta2017c.lst 
+cd ..
+ls
+cd 6neduzd/
+cp ta2017c.lst ..
+ls
+cd ..
+ls
+nano ta2017c.lst head -21 ta2017c.lst data.txt
+nano ta2017c.lst head -21 ta2017c.lst 
+head -21 ta2017c.lst 
+ls
+less ta2017c.lst 
+rm ta2017c.lst 
+head -21 6neduzd/ta2017c.lst >> data.txt
+ls
+cd 6neduzd/
+ls
+cd ..
+less data.txt 
+ls
+rm Test.js 
+ls
+mv data.txt 6neduzd/
+ls
+cd 6neduzd/
+ls
+npm -i csv --save
+npm i csv --save
+node index.js 
+groups
+sudo usermod -aG docker rdb060
+docker
+docker container --help
+docker version
+docker image
+docker image pull hello-world image
+docker image pull hello-world
+docker images
+docker --help
+docker run --help
+docker container ls
+docker container ls --all
+docker run -it -name my hello-world
+docker run -it -name my ubuntu
+docker run -it --name my ubuntu
+docker container ls --all
+exit
+ls
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+apt-cache policy docker-ce
+sudo apt install docker-ce
+sudo systemctl status docker
+docker
+sudo usermod -aG docker rdb060
+su - rdb060
+ls
+cd 6neduzd/
+ls

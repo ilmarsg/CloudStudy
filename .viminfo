@@ -11,14 +11,16 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1669918519,,"q"
+:qa
+|2,0,1669917502,,"qa"
 :q!
 |2,0,1665922182,,"q!"
 :wq!
 |2,0,1665922173,,"wq!"
 :wq
 |2,0,1665922166,,"wq"
-:q
-|2,0,1665922133,,"q"
 :zz
 |2,0,1665922128,,"zz"
 :!q
@@ -67,32 +69,84 @@
 |3,0,36,0,1,0,1665921896,"d"
 
 # File marks:
-'0  39  0  /etc/apt/sources.list
-|4,48,39,0,1665922182,"/etc/apt/sources.list"
-'1  27  0  /etc/apt/sources.list
-|4,49,27,0,1665922094,"/etc/apt/sources.list"
-'2  27  0  /etc/apt/sources.list
-|4,50,27,0,1665922094,"/etc/apt/sources.list"
-'3  35  83  /etc/apt/sources.list
-|4,51,35,83,1665922036,"/etc/apt/sources.list"
-'4  35  83  /etc/apt/sources.list
-|4,52,35,83,1665922036,"/etc/apt/sources.list"
-'5  35  83  /etc/apt/sources.list
-|4,53,35,83,1665922036,"/etc/apt/sources.list"
+'0  37  18  ~/ta2017c.lst
+|4,48,37,18,1669918519,"~/ta2017c.lst"
+'1  35  0  ~/ta2017c.lst
+|4,49,35,0,1669917502,"~/ta2017c.lst"
+'2  35  0  ~/ta2017c.lst
+|4,50,35,0,1669917502,"~/ta2017c.lst"
+'3  39  0  /etc/apt/sources.list
+|4,51,39,0,1665922182,"/etc/apt/sources.list"
+'4  27  0  /etc/apt/sources.list
+|4,52,27,0,1665922094,"/etc/apt/sources.list"
+'5  27  0  /etc/apt/sources.list
+|4,53,27,0,1665922094,"/etc/apt/sources.list"
 '6  35  83  /etc/apt/sources.list
 |4,54,35,83,1665922036,"/etc/apt/sources.list"
+'7  35  83  /etc/apt/sources.list
+|4,55,35,83,1665922036,"/etc/apt/sources.list"
+'8  35  83  /etc/apt/sources.list
+|4,56,35,83,1665922036,"/etc/apt/sources.list"
+'9  35  83  /etc/apt/sources.list
+|4,57,35,83,1665922036,"/etc/apt/sources.list"
 
 # Jumplist (newest first):
+-'  37  18  ~/ta2017c.lst
+|4,39,37,18,1669918519,"~/ta2017c.lst"
+-'  35  0  ~/ta2017c.lst
+|4,39,35,0,1669918514,"~/ta2017c.lst"
+-'  35  0  ~/ta2017c.lst
+|4,39,35,0,1669917502,"~/ta2017c.lst"
+-'  1  0  ~/ta2017c.lst
+|4,39,1,0,1669917490,"~/ta2017c.lst"
+-'  1  0  ~/ta2017c.lst
+|4,39,1,0,1669917490,"~/ta2017c.lst"
+-'  39  0  /etc/apt/sources.list
+|4,39,39,0,1665922182,"/etc/apt/sources.list"
+-'  39  0  /etc/apt/sources.list
+|4,39,39,0,1665922182,"/etc/apt/sources.list"
+-'  39  0  /etc/apt/sources.list
+|4,39,39,0,1665922182,"/etc/apt/sources.list"
 -'  39  0  /etc/apt/sources.list
 |4,39,39,0,1665922182,"/etc/apt/sources.list"
 -'  27  0  /etc/apt/sources.list
 |4,39,27,0,1665922097,"/etc/apt/sources.list"
+-'  27  0  /etc/apt/sources.list
+|4,39,27,0,1665922097,"/etc/apt/sources.list"
+-'  27  0  /etc/apt/sources.list
+|4,39,27,0,1665922097,"/etc/apt/sources.list"
+-'  27  0  /etc/apt/sources.list
+|4,39,27,0,1665922097,"/etc/apt/sources.list"
+-'  27  0  /etc/apt/sources.list
+|4,39,27,0,1665922094,"/etc/apt/sources.list"
+-'  27  0  /etc/apt/sources.list
+|4,39,27,0,1665922094,"/etc/apt/sources.list"
+-'  27  0  /etc/apt/sources.list
+|4,39,27,0,1665922094,"/etc/apt/sources.list"
 -'  27  0  /etc/apt/sources.list
 |4,39,27,0,1665922094,"/etc/apt/sources.list"
 -'  35  83  /etc/apt/sources.list
 |4,39,35,83,1665922053,"/etc/apt/sources.list"
 -'  35  83  /etc/apt/sources.list
 |4,39,35,83,1665922053,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922053,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922053,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922053,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922053,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922053,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922053,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922036,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922036,"/etc/apt/sources.list"
+-'  35  83  /etc/apt/sources.list
+|4,39,35,83,1665922036,"/etc/apt/sources.list"
 -'  35  83  /etc/apt/sources.list
 |4,39,35,83,1665922036,"/etc/apt/sources.list"
 -'  1  0  /etc/apt/sources.list
@@ -101,8 +155,31 @@
 |4,39,1,0,1665921955,"/etc/apt/sources.list"
 -'  1  0  /etc/apt/sources.list
 |4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1665921955,"/etc/apt/sources.list"
 
 # History of marks within files (newest to oldest):
+
+> ~/ta2017c.lst
+	*	1669918517	0
+	"	37	18
+	^	35	1
 
 > /etc/apt/sources.list
 	*	1665922177	0
