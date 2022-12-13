@@ -8,11 +8,11 @@ app.get('/getData/make/:make/engine/:engine', function (req, res) {
     const regex = new RegExp(".*" + req.params.make + ".*" + req.params.engine + ".*", "gi");
     const results = [];
     fs.createReadStream(__dirname + "/" + "data.txt")
-    .pipe(csv({separator: ";", filter: (line) => regex.match(line)}))
-    .on('data', (line) => results.push(line))
-    .on('end', () => {
-        res.end(JSON.stringify(results));
-    });
+        .pipe(csv({separator: ";", filter: (line) => regex.test(line)}))
+        .on('data', (data) => results.push(data))
+        .on('end', () => {
+            res.end(JSON.stringify(results));
+        });
 })
 
 var server = app.listen(8081, function () {
