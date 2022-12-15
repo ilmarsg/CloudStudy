@@ -609,3 +609,25 @@ su - rdb060
 ls
 cd 6neduzd/
 ls
+cd 6neduzd/
+cp data.txt data2.txt
+ls
+less data2.txt 
+node index.js 
+mv data2.txt data2.json
+ls
+node index.js 
+ls
+rm data2.json 
+ls
+less data2.txt 
+rm data2.txt 
+ls
+node index.js 
+node index.js \
+node index.js
+npm install csvtojson --save
+cd 6neduzd/
+npm install csv-parse --save
+npm install csv-parser --save
+npm uninstall -D csvtojson
