@@ -3,6 +3,10 @@ const app = express();
 const fs = require("fs");
 const {parse} = require("csv-parse");
 
+app.get('/', (req, res) => {
+    res.send('Test');
+});
+
 app.get("/getData/make/:make/engine/:engine", function (req, res) {
     let result = [];
     fs.createReadStream(__dirname + "/" + "ta2017c.lst")
