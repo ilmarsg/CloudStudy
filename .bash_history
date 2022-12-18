@@ -631,3 +631,264 @@ cd 6neduzd/
 npm install csv-parse --save
 npm install csv-parser --save
 npm uninstall -D csvtojson
+curl localhost:8081/
+ls
+cd 6neduzd/
+ls
+npm uninstall -D csv-parser
+npm index.js 
+npm start
+nodejs index.js 
+ls
+rm data.txt 
+rm Draft.js 
+rm users.json 
+ls
+less package.json 
+less package-lock.json 
+cd ..
+docker
+docker containers
+docker containers --help
+docker container --help
+docker container ls
+docker --help
+docker images --help
+docker images
+docker images --help
+docker image --help
+docker images
+docker image rm httpd
+docker image rm nginx:latest 
+docker image rm tomcat:latest 
+docker images
+docker image --help
+docker image pull ubuntu
+docker images
+ls
+wget
+cd 6neduzd/
+ping localhost
+curl -f http://localhost
+node index.js 
+curl -f http://localhost/
+curl localhost:8081
+curl http://localhost:8081
+node index.js 
+ls
+cd ..
+ls
+rm dockerfile 
+ls
+sudo docker -rm -t="Webserviss"
+sudo docker build --rm -t="Webserviss"
+sudo docker build --rm -t="webserviss"
+docker build --help
+docker image build --help
+docker image ls
+docker image build --rm
+docker image build
+docker image build --rm Dockerfile
+docker image build --rm ./Dockerfile
+docker image build --rm ./
+ls
+cd 6neduzd/
+ls
+cd ..
+docker ls
+docker images ls
+docker container ls
+docker --help
+docker image ls
+docker image --help
+docker image load --help
+docker image --help
+docker image ls
+docker image prune
+docker image ls
+docker image build --rm 
+docker image build --rm ./Dockerfile/
+docker image build --rm Dockerfile/
+docker image build --rm 
+docker image build --rm ./
+docker image ls
+docker image prune
+docker image ls
+docker image prune
+docker image ls
+docker containers
+docker container ls
+docker image ls
+ls
+cd 6neduzd/
+ls
+cd ..
+docker image build
+docker image build --rm
+docker image build --rm ./
+docker image prune
+docker image ls
+docker image build ./
+healthcheck
+docker healthcheck --help
+docker builder --help
+docker container ls
+docker image ls
+container --help
+docker --help
+ls
+cd 6neduzd/
+ls
+cd ..
+docker run --help
+docker container --help
+docker container create --help
+docker image ls
+docker container --help
+docker container create --help
+docker image ls
+docker run -i -t 1f39652ef15b
+docker container ls
+docker container create 1f39652ef15b
+docker container ls
+docker image prune
+docker image ls
+docker image rm 1f39652ef15b
+docker image rm f2942b43d07a
+docker image rm -f f2942b43d07a
+docker image rm -f 95ce334f0849 
+docker container ls -a
+docker container rm a59b061deede 
+docker container rm fe36702c54d2 
+docker container ls -a
+docker container rm 13b2b205ade7 
+docker container rm 19b4aebeb1ed
+docker container rm 9c9ef417a2a7 
+docker container ls -a
+docker image ls -a
+docker image ls 
+docker image rm -f 1f39652ef15b
+docker image rm -f 0017338afcdf 
+docker image ls
+docker image prune
+docker image -a
+docker image ls -a
+docker image build --tag-"Webserviss"
+docker image build --tag="Webserviss"
+docker image build --tag="webserviss"
+docker image build --tag=webserviss
+docker image build --help
+docker image build --hrm --tag webserviss ./
+docker image build --rm --tag webserviss ./
+docker container ls -a
+docker image ls -a
+docker image prune
+docker image ls -a
+docker image ls 
+docker run --detach --name webserviss --publish 8081:8081 webserviss
+docker container ls
+ls
+docker container attach webserviss 
+ls
+docker container
+docker container ls
+docker container stop webserviss 
+docker container ls\
+docker container ls
+docker container ls -a
+docker image ls
+docker image ls -a
+docker image prune
+docker image ls -a
+ls
+docker container ls
+docker container ls -a
+docker image ls 
+docker image prune
+docker image ls -a
+docker image rm d5f88fe33b95 b6de34585c98
+docker image rm 7259408e2092 29a87780ca95 f92dbbf4cea8 8276142bfa24 828bcbb72853 ba82ec2e8981
+docker image rm webserviss
+docker container rm webserviss 
+docker image rm webserviss
+docker image ls -a
+docker run -d -p 9000:9000 -p 9001:9001 minio/minio server /data
+https://hub.docker.com/r/minio/minio/ --console-address ":9001"
+docker container -s
+docker container ls
+https://hub.docker.com/r/minio/minio/ --console-address ":9001"
+docker container ls
+docker container stop minio
+docker container ls
+docker container stop silly_noether 
+docker container rm silly_noether 
+docker image rm minio/minio:latest 
+docker image ls -a
+docker pull minio/minio
+docker container ls -a
+docker imager ls -a
+docker image ls -a
+docker run -d -p 9000:9000 -p 9001:9001 minio/minio server /data https://hub.docker.com/r/minio/minio/ --console-address ":9001"
+docker container ls -a
+docker container ls 
+docker container run minio/minio
+docker container ls
+docker container ls -a
+docker container ls
+docker container rm wizardly_goodall 
+docker container ls -a
+ls
+mkdir minio
+ls
+cd minio/
+npm init
+ls
+npm install --save minio
+ls
+wget http://plates.openalpr.com/h786poj.jpg
+ls
+npm run upload-minio
+podman
+docker container run -p 9000:9000 -p 9001:9001   quay.io/minio/minio server /data --console-address ":9001"
+docker container ls
+docker container ls -a
+docker images ls -a
+docker image ls -a
+docker container ls -a
+docker container ls 
+cd ..
+docker run -it --entrypoint /bin/bash openalpr/openalpr
+ls
+docker containers
+docker container ls
+docker container --help
+docker container attach confident_bassi 
+docker container ls
+docker container
+docker container ls
+docker container stop confident_bassi 
+docker container ls
+docker container ls -a
+docker container start confident_bassi 
+docker container ls -a
+docker container stop confident_bassi 
+docker container start fervent_cannon 
+docker container ls -a
+docker logs fervent_cannon 
+docker logs 89801b77a82f
+docker log 89801b77a82f
+sudo docker start fervent_cannon 
+docker container ls -a
+docker inspect fervent_cannon 
+docker container ls -a
+docker container start musing_newton 
+docker container ls -a
+docker container rm fervent_cannon 
+docker container ls -a
+docker container ls 
+ls
+cd minio/
+ls
+docker attach musing_newton 
+ls
+docker container ls
