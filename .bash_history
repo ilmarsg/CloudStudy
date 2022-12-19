@@ -892,3 +892,226 @@ ls
 docker attach musing_newton 
 ls
 docker container ls
+ls
+npm run download-minio
+cd minio/
+npm run download-minio\
+npm run download-minio
+ls
+cd ..
+ls
+cd ..
+ls
+cd tmp/
+ls
+cd ..
+ls
+cd tmp/
+ls
+rm photo.jpg 
+docker container ls
+docker container stop musing_newton 
+docker container rm musing_newton 
+docker container ls -a
+docker images ls -a
+docker image ls -a
+docker image rm 2bca66a480f6 46b3c561f76f
+docker image prune
+docker image ls
+docker image ls -a
+cd
+ls
+rm minio/
+rmdir minio/
+rmdir minio -f
+rmdir minio -r
+rm -d minio
+rm -r minio
+ls
+mkdir RabbitMQ
+ls
+cd RabbitMQ/
+docker run -d --name some-rabbit -p 8080:15672 -p 5672:5672 rabbitmq:3 -management
+ls
+npm init
+ls
+npm i  amqplib --save
+node rabbit-sender
+node run rabbit-sender
+less package.json 
+node run rabbit-sender
+npm run rabbit-sender
+container ls 
+docker container ls
+docker container ls -a
+docker start some-rabbit 
+docker container ls -a
+docker start some-rabbit 
+docker container ls
+docker container ls -a
+docker container rm some-rabbit 
+docker image rm rabbitmq:3 
+docker image ls -a
+docker pull rabbitmq:3-management
+docker imge ls
+docker imges ls
+docker image ls
+docker container ls -a
+docker run -d --name rabbitmq -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+docker container ls -a
+npm run rabbit-sender 
+npm run rabbit-receiver
+cd ..
+ls
+docker container ls -a
+docker container start confident_bassi 
+docker container ls -a
+docker container attach confident_bassi 
+ls
+docker container ls
+alpr
+docker container attach confident_bassi 
+docker stop confident_bassi 
+docker rm confident_bassi 
+cd
+ls
+sudo apt-get update && sudo apt-get install -y openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+ls
+mkdir OpenAlpr
+cd OpenAlpr/
+npm init
+npm install node-openalpr --save
+wget http://plates.openalpr.com/h786poj.jpg
+openalpr h786poj.jpg 
+alpr h786poj.jpg 
+alpr
+Alpr --version
+openalpr
+cd ..
+sudo apt-get install libopencv-dev libtesseract-dev git cmake build-essential libleptonica-dev
+sudo apt-get install liblog4cplus-dev libcurl3-dev
+alpr
+sudo apt-get update && sudo apt-get install -y openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+cd
+sudo apt-get update && sudo apt-get install -y openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+sudo apt-get update
+sudo apt-get update && sudo apt-get install -y openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+sudo apt-get install -y openalpr
+docker image ls
+docker container run ls
+ls
+cd OpenAlpr/
+ls
+docker container ls -a
+docker image ls -a
+docker run openalpr/openalpr
+docker run -d --name openalpr openalpr/openalpr
+docker container ls -a
+docker rm loving_lamport 
+docker container ls -a
+docker container start openalpr 
+docker container ls -a
+docker container rm openalpr 
+docker container ls -a
+docker run -d --name openalpr--entrypoint /bin/bash openalpr/openalpr
+docker run -d --name openalpr --entrypoint /bin/bash openalpr/openalpr
+docker container ls -a
+docker container start openalpr 
+docker container ls -a
+docker container rm openalpr 
+docker run -d --name openalpr --entrypoint /bin/bash openalpr/openalpr
+docker container ls -a
+docker rm openalpr 
+docker run -it --name openalpr --entrypoint /bin/bash openalpr/openalpr
+ls
+docker container ls -a
+alpr
+cd ..
+ls
+cd bin
+ls
+cd bash
+cd
+ls
+docker container ls
+docker stop openalpr 
+docker rm openalpr 
+docker container ls
+docker run -it --name openalpr openalpr/openalpr
+docker container ls
+docker run -it --name openalpr openalpr/openalpr
+docker container ls -a
+docker container rm openalpr 
+docker run -it --name openalpr openalpr/openalpr
+docker container ls -a
+docker start openalpr 
+docker container ls -a
+docker rm openalpr 
+docker run -it --name openalpr --entrypoint /bin/bash openalpr/openalpr
+docker container ls
+docker attach openalpr 
+ls
+cd OpenAlpr/
+ls
+docker ps
+docker cp h786poj.jpg container_id:/h786poj.jpg
+docker cp h786poj.jpg openalpr:/h786poj.jpg
+docker cp index.js openalpr:/data/h786poj.jpg
+docker cp index.js openalpr:/data/index.js
+docker cp h786poj.jpg openalpr:/data/h786poj.jpg
+cd ..
+cd etc/apt
+less sources.list
+ls
+cd OpenAlpr/
+docker container stop openalpr 
+cd ..
+rm -d OpenAlpr/
+rm -r OpenAlpr/
+ls
+docker container ls -a
+docker container ls
+docker attach openalpr 
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+docker build -t openalpr https://github.com/openalpr/openalpr.git
+docker container ls -a
+docker images ls -a
+docker image ls -a
+docker image rm openalpr/openalpr:latest 
+docker container stop openalpr 
+docker container rm openalpr 
+docker image rm openalpr/openalpr:latest 
+docker image prune
+docker image ls -a
+ls
+cd OpenAlpr/
+ls
+docker run -it --rm -v ${PWD}:/data:ro openalpr/openalpr -c eu h786poj.jpg
+docker images ls -a
+docker image ls -a
+docker containers ls -a
+docker container ls -a
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+ls
+docker container ls
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu 
+ls
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+docker container ls -a
+docker images ls
+docker images ls -a
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+ls
+cd OpenAlpr/
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+docker container ls -a
+docker image ls -a
+ls
+rm index.js 
+cd ..
+rmdir -r OpenAlpr/
+rm -r OpenAlpr/
+mkdir OpenAlpr
+cd OpenAlpr/
+npm init
+ls
