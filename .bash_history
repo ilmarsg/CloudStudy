@@ -1115,3 +1115,161 @@ mkdir OpenAlpr
 cd OpenAlpr/
 npm init
 ls
+cd OpenAlpr/
+node index.js 
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+docker image ls -a
+ls
+wget http://plates.openalpr.com/h786poj.jpg
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+node index.js 
+docker run -it --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+less index.js 
+node index.js 
+less index.js 
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+less index.js 
+node index.js 
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+node index.js 
+npm i amqplib --save
+node index.js 
+cd ..
+ls
+cd RabbitMQ/
+node rabbit-sender.js 
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+cd ..
+cd OpenAlpr/
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+cd ..
+cd RabbitMQ/
+node rabbit-sender.js 
+cd ..
+cd OpenAlpr/
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+cd ..
+cd RabbitMQ/
+node rabbit-sender.js 
+cd ..
+ls
+docker run -it -p 27017:27017 --name mongo-node -d mongo:latest
+mkdir Mongo
+cd Mongo/
+npm init
+docker container ls
+docker exec -it mongo-node bash
+docker attach mongo-node 
+docker container ls -a
+docker login -u ilmarsg
+docker image ls -a
+docker exec -it mongo-node mongo
+docker container stop mongo-node 
+docker container rm mongo-node 
+docker image ls
+docker image rm mongo:latest 
+docker containers
+docker container ls
+docker container ls -a
+docker pull mongo
+docker container ls
+docker exec -it mongo bash
+docker container ls
+ls
+npm install --save mongodb
+node index.js 
+docker exec -it mongo-node bash
+docker exec -it mongo bash
+node index.js 
+docker exec -it mongo bash
+cd ..
+cd OpenAlpr/
+npm install --save mongodb
+curl http://192.168.1.106:15672
+curl http://192.168.1.106:15612http://192.1
+curl http://localhost:15672
+node index.js 
+docker exec -it mongo bash
+node index.js 
+cd ..
+cd RabbitMQ/
+ls
+node rabbit-sender.js 
+docker container ls
+docker container ls -a
+docker start mongo 
+docker container ls -a
+docker system prune
+docker container ls -a
+docker start mongo 
+docker container ls -a
+docker start mongo 
+docker container ls -a
+docker start --help
+docker commit mongo mongo_ig
+docker images ls
+docker images ls -a
+docker image ls -a
+docker rm mongo 
+docker run -it -p 27017:27017 --name mongo -d mongo_ig
+docker images ls -a
+docker container ls 
+docker container ls -a
+docker start mongo 
+docker container ls -a
+docker volume ls
+docker volume prune
+docker container start mongo 
+docker container ls -a
+docker exec -it mongo bash
+cd
+ls
+cd Mongo/
+node index.
+node index.js 
+docker exec -it mongo bash
+cd ..
+cd OpenAlpr/
+node index.js 
+cd ..
+cd RabbitMQ/
+node rabbit-sender.js 
+cd ..
+cd OpenAlpr/
+node index.js 
+cd ..
+cd RabbitMQ/
+cd ..
+cd Mongo/
+less index.js 
+ls
+less index.js 
+cd ..
+cd RabbitMQ/
+less rabbit-sender.js 
+cd ..
+docker exec -it mongo bash
+docker container ls
+docker container ls -a
+docker container start mongo 
+docker container ls -a
+docker exec -it mongo bash
+docker container ls -a
+cd RabbitMQ/
+ls
+node rabbit-sender.js 
+less rabbit-sender.js 
+node rabbit-sender.js 
+docker container ls -a
+docker container start mongo 
+docker container ls -a
+docker container start mongo 
+docker container ls -a
+docker container start mongo 
+docker container ls -a
+docker container start mongo 
+docker container ls -a
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+cd ..
+cd OpenAlpr/
+docker run --rm -v $(pwd

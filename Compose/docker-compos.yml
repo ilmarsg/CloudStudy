@@ -1,0 +1,53 @@
+version: '3.7'
+networks:
+  rabbitmq_nodejs:
+    driver: bridge
+services:
+  minio:
+    image: minio/minio:latest
+    command: ["server", "/export"]
+    ports:
+      - 9000:9000
+      - 9001:9001
+    environment:
+      MINIO_ACCESS_KEY: "minioadmin"
+      MINIO_SECRET_KEY: "minioadmin"
+    networks:
+      - rabbitmq_nodejs
+  rabbitmq:
+    image: rabbitmq:latest
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - rabbitmq_nodejs
+  webService:
+    image: ws:1.0
+    ports:
+      - 3001:3001
+    environment:
+      AMQP_URL: amqp://guest:guest@rabbitmq:5672
+      MINIO_URL: minio
+    networks:
+      - rabbitmq_nodejs
+    depends_on:
+      - minio
+      - rabbitmq
+  mongodb:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    networks:
+      - rabbitmq_nodejs
+  openalpr:
+    image: openalpr:1.0
+    environment:
+      AMQP_URL: amqp://guest:guest@rabbitmq:5672
+      MINIO_URL: minio
+      MONGO_URL: mongodb
+    networks:
+      - rabbitmq_nodejs
+    depends_on:
+      - minio
+      - rabbitmq
+      - mongodb
