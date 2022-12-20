@@ -12,9 +12,7 @@ var Minio = require('minio')
 var minioClient = new Minio.Client({
     endPoint: process.env.MINIO_URL,
     port: 9000,
-    useSSL: false,
-    accessKey: 'minioadmin',
-    secretKey: 'minioadmin'
+    useSSL: false
 });
 
 // enable files upload

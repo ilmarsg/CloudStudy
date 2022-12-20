@@ -1272,4 +1272,486 @@ docker container ls -a
 docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
 cd ..
 cd OpenAlpr/
-docker run --rm -v $(pwd
+docker run --rm -v $(pwddocker container ls -a
+docker container start  rabbitmq  openalpr mongo 
+docker container ls -a
+cd RabbitMQ/
+less rabbit-sender.js 
+docker container ls -a
+less rabbit-sender.js 
+node rabbit-sender.js 
+docker exec -it mongo bash
+docker container ls -a
+docker stop openalpr 
+docker rm openalpr 
+docker image ls -a
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+docker image rm openalpr/openalpr:latest 
+docker image ls -a
+docker pull openalpr
+docker build -t openalpr https://github.com/openalpr/openalpr.git
+docker image ls -a
+docker container ls -a
+docker run --rm -v $(pwd):/data:ro openalpr h786poj.jpg
+cd ..
+cd OpenAlpr/
+docker run --rm -v $(pwd):/data:ro openalpr h786poj.jpg
+docker run --rm -v $(pwd):/data:ro openalpr -c eu h786poj.jpg
+cd ..
+cd RabbitMQ/
+node rabbit-sender.js 
+docker exec -it mongo bash
+cd ..
+cd OpenAlpr/
+npm install nodemailer --save
+docker exec -it mongo bash
+docker container ls -a
+docker start mongo 
+docker exec -it mongo bash
+docker container ls -a
+docker image prune
+docker start mongo 
+docker container ls -a
+docker start mongo
+docker container ls -a
+df -H
+rm -rf /var/cache/apt/*
+sudo rm -rf /var/cache/apt/*
+df -H
+$ lvm
+lvm> lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+lvm> exit
+sudo lvm> lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+lvm> exit
+sudo $ lvm
+$ lvm
+lvm> lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+cd
+ls
+sudo lvdisplay
+sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+resize2fs /dev/ubuntu-vg/ubuntu-lv
+sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
+df -h
+docker container start mongo 
+docker container ls -a
+df -h
+sudo docker run --name ws1 -p 3000:3000 -d janislaganovskis/cloud
+docker container ls
+docker container ls -a
+docker run -d -p 9000:9000 -p 9001:9001 minio/minio server /data
+docker container ls -a
+docker container attach ws1
+docker container ls -1
+docker container ls -a
+docker container start ws1
+docker container ls -a
+docker container start ws1
+docker container ls -a
+docker exec -it mongo bash
+docker container ls -a
+ping google.com
+docker exec -it mongo bash
+docker container ls -a
+docker container rm ws1 
+docker image ls -a
+docker image rm janislaganovskis/cloud:latest 
+sudo docker run --name ws1 -p 3001:3001 -d janislaganovskis/cloud
+docker container ls -a
+sudo docker run --name ws1 -p 3001:3001 -d janislaganovskis/cloud
+docker exec -it mongo bash
+docker ps
+cd OpenAlpr/
+ls
+npm install --save minio
+ls
+cd ..
+mkdir WS
+cd WS
+npm init
+ls
+npm i express express-fileupload cors morgan body-parser minio rabbitmq amqplib/callback_api --save
+npm i express express-fileupload cors morgan body-parser minio rabbitmq amqplib --save
+less package.json 
+ls
+node index.js 
+ls
+cd ..
+cd OpenAlpr/
+ls
+cd img/
+ls
+cd ..
+cd
+cd WS/
+node index.js 
+cd ..
+docker ps
+docker run -it --entrypoint /bin/bash openalpr/openalpr
+ls
+docker image build --rm --tag OpenAlprWorker
+docker image build --rm --tag openalprworker
+docker image --help
+docker image build --help
+docker image build -t openalprworker --rm
+docker image build -t:openalprworker --rm
+docker image build --rm
+docker image build
+docker build --rm -t openalprworker
+docker build -t openalprworker
+docker build --help
+docker image build --help
+docker image build -t openalprworker
+docker image build 
+ls
+docker image build 
+docker image build --help
+docker image build --rm -t openalprworker ./
+docker image ls
+docker image ls -a
+docker image prune
+docker rp
+docker rm
+docker container ls -a
+docker attach pensive_curie 
+cd OpenAlpr/
+docker ps
+docker cp index.js pensive_curie:/data/index.js
+docker cp package.json pensive_curie:/data/package.json
+docker attach pensive_curie 
+cd ..
+cd WS/
+docker container ls -a
+docker build -t ws:1.0 .
+docker ps
+docker image ls -a
+cd ..
+cd OpenAlpr/
+docker container ls -a
+docker container stop pensive_curie 
+docker build -t openalpr:1.0 .
+docker-compose --version
+apt-get docker-compose
+apt install docker-compose
+sudo apt install docker-compose
+docker-compose --version
+docker rs
+docker ps
+docker ps -a
+docker images ls -a
+docker image ls -a
+docker image prune
+docker ps-a
+docker ps -a
+docker rm rabbitmq mystifying_swanson ws1 cool_carver charming_kowalevski nice_bhaskara
+docker ps -a
+docker image ps  ls -a
+docker image ls -a
+docker-compose --help
+docker-compose config --help
+docker-compose --help
+docker-compose ps
+cd ..
+cd Compose/
+docker-compose ps
+cd ..
+cd
+cd OpenAlpr/
+docker ps -a
+docker start pensive_curie 
+docker attach pensive_curie 
+nodejs --version
+docker attach pensive_curie 
+cd ..
+less /etc/apt/sources.list
+docker attach pensive_curie 
+uname -mrs
+docker attach pensive_curie 
+docker container ls
+docker container stop pensive_curie 
+docker container rm pensive_curie 
+docker run -it --entrypoint /bin/bash openalpr/openalpr
+docker ps -a
+docker attach dreamy_cray 
+ls
+cd
+cd OpenAlpr/
+ls
+docker CP package*.son ./
+docker cp package*.son ./
+docker ps -a
+docker cp package.json dreamy_cray:./
+docker cp package-lock.json dreamy_cray:./
+docker cp index.js dreamy_cray:./
+docker attach dreamy_cray 
+docker build -t openalpr:1.0
+docker build -t openalpr:1.0 ./
+docker image ls -a
+docker build -t openalpr:1.0 ./
+docker image prune
+docker build -t openalpr:1.0 ./
+docker images prune
+docker images prude
+docker image prone
+docker image prune
+docker build -t openalpr:1.0 ./
+docker attach dreamy_cray 
+docker build -t openalpr:1.0 ./
+docker stop dreamy_cray 
+docker rm dreamy_cray 
+docker run -it --entrypoint /bin/bash openalpr/openalpr
+ls
+docker build -t openalpr:1.0 ./
+docker image ls -a
+docper ps
+docker ps
+docker container stop vigorous_booth 
+docker container ls -a
+docker container prune
+docker container ls -a
+docker image prune
+docker image ls -a
+docker rm 251b86c83674 bba6fb306239 555b5c3c2de6 6a9dee251290
+docker image rm 251b86c83674 bba6fb306239 555b5c3c2de6 6a9dee251290
+docker image ls
+docker container ls -a
+docker container ls 
+docker attach compose_mongodb_1 
+docer ps
+docker ps
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker start compose_rabbitmq_1 compose_minio_1 compose_webService_1 
+docker ps -a
+docker start compose_mongodb_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+
+docker ps -a
+docker attach compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker attach compose_openalpr_1 p
+docker ps
+docker ps -a
+docker image ls -a
+cd
+ls
+cd Compose/
+docker-compose up
+ls
+rm docker-compos.yml 
+less docker-compose.yml 
+docker-compose up
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker container rm compose_openalpr_1
+docker ps -a
+docker run -it --entrypoint /bin/bash openalpr:1.0 
+docker ps -a
+docker attach jolly_mirzakhani 
+docker container stop jolly_mirzakhani compose_mongodb_1 compose_minio_1 compose_rabbitmq_1 compose_webService_1 
+docker container rm jolly_mirzakhani compose_mongodb_1 compose_minio_1 compose_rabbitmq_1 compose_webService_1 
+docker ps -a
+docker-compose up
+docker ps -a
+docker-compose up
+docker ps -a
+docker container start compose_openalpr_1 
+docker ps -a
+docker-compose up
+docker ps -a
+docker image ls
+docker image rm openalpr:1.0 
+docker ps -a
+docker rm compose_openalpr_1 
+docker image rm openalpr:1.0 
+cd ..
+cd OpenAlpr/
+ls
+docker build --rm -t openalpr:1.0
+docker build --rm -t openalpr:1.0 ./
+docker run openalpr:1.0 
+docker ps -a
+docker start ecstatic_bose 
+docker ps -a
+docker rm ecstatic_bose 
+docker image rm openalpr
+docker image rm openalpr:1
+docker image rm openalpr:1.0 
+docker build --rm -t openalpr:1.0 ./
+docker image ls
+cd ..
+ls
+cd Compose/
+docker-compose up
+docker rm compose_openalpr_1 
+docker image rm openalpr:1.0 
+cd ..
+cd OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+docker container rm compose_openalpr_1 
+docker image rm openalpr:1.0 
+cd ../OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+cd ../OpenAlpr/
+docker container rm compose_openalpr_1 
+docker image rm openalpr:1.0 
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+cd ../OpenAlpr/
+docker container rm compose_openalpr_1 
+docker image rm openalpr:1.0 
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+cd ../OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+cd ../OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+cd ../OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+docker run --help
+docker-compose up
+cd ../OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+cd ../OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start silly_babbage 
+docker ps -a
+docker container rm tender_golick compose_openalpr_1 crazy_sanderson silly_babbage
+docker stop tender_golick 
+docker container rm tender_golick 
+docker build --rm -t openalpr:1.0 ./
+cd ../Compose/
+docker-compose up
+docker run minio/minio:latest rabbitmq:3-management 
+docker run minio/minio:latest 
+docker ps -a
+docker rm musing_kirch sleepy_cori 
+docker run -d -p 9000:9000 -p 9001:9001 minio/minio server /data
+docker run -d --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+docker ps -a
+docker run -it -p 27017:27017 --name mongo-node -d mongo:latest
+docker ps -a
+docker run ws:1.0 
+docker ps -a
+cd ..
+cd WS/
+docker build --rm -t ws:1.0 ./
+docker run ws:1.0 
+cd ../OpenAlpr/
+docker run openalpr:1.0 
+docker ps -a
+docker container rm flamboyant_kirch gallant_ganguly amazing_lovelace 
+docker ps -a
+docker run ws:1.0 
+docker build --rm -t openalpr:1.0 ./
+docker run openalpr:1.0 
+docker build --rm -t openalpr:1.0 ./
+cd ../WS/
+docker build --rm -t ws:1.0 ./
+cd ../Compose/
+docker-compose up
+docker ps -a
+docker stop mongo-node some-rabbit exciting_williams 
+docker container rm practical_volhard nice_herschel adoring_hodgkin mongo-node some-rabbit exciting_williams 
+docker ps -a
+docker image ls -a
+docker image prune
+docker image rm 
+docker image prune
+docker-compose up
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker run -it --entrypoint /bin/bash openalpr/openalpr
+docker ps
+docker ps -a
+docker attach tender_golick 
+docker ps -a
+docker attach compose_openalpr_1 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+cd OpenAlpr/
+node index.js 
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker attach compose_openalpr_1 
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker start compose_minio_1 
+docker ps -a
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker ps -a
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker stop compose_openalpr_1 
+docker build --rm -t openalpr:1.0 ./
+cd ../WS/
+docker build --rm -t ws:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+cd ../OpenAlpr/
+docker build --rm -t openalpr:1.0 ./
+docker ps -a
+docker start compose_openalpr_1 
+docker exec -it mongo-node bash
+docker exec -it compose_mongodb_1 bash
+docker ps -a
+docker attach compose_mongodb_1 
+docker ps -a
+docker start compose_mongodb_1 
+docker ps -a
+docker exec -it compose_mongodb_1 bash
+docker attach compose_openalpr_1 

@@ -6,12 +6,10 @@ const Minio = require('minio')
 const minioClient = new Minio.Client({
     endPoint: process.env.MINIO_URL,
     port: 9000,
-    useSSL: false,
-    accessKey: 'minioadmin',
-    secretKey: 'minioadmin'
+    useSSL: false
 });
 const RabbitMQ_URI = process.env.AMQP_URL;
-const Mongo_URI = 'mongodb://' + process.env.MONGO_URL;
+const Mongo_URI = process.env.MONGO_URL;
 const db = 'db';
 
 const transporter = nodemailer.createTransport({
@@ -49,8 +47,8 @@ amqp.connect(RabbitMQ_URI, function(err, connection) {
                 let command = "alpr -c eu ./img/" + AutoDati.imageName;
                 exec(command,
                     function (error, stdout, stderr) {
-                        if (error) throw error;
-                        if (stderr) throw stderr;
+                    if (error) throw error;
+                    if (stderr) throw stderr;
                         let RegEx = new RegExp("- ([A-Z0-9]+)", "i");
                         let PlateNr = stdout.match(RegEx)[1];
                         console.log("Plate number: " + PlateNr);
