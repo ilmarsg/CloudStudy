@@ -1755,3 +1755,13 @@ docker start compose_mongodb_1
 docker ps -a
 docker exec -it compose_mongodb_1 bash
 docker attach compose_openalpr_1 
+docker exec -it componse_mongodb_1 bash
+docker ps -a
+docker ps 
+docker exec -it compose_mongodb_1 bash
+docker exec -it componse_mongodb_1 bash
+docker ps
+docker exec -it componse_mongodb_1 bash
+docker exec -it compose_mongodb_1 bash
+docker ps -a
+docker ps 
